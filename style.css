@@ -504,24 +504,13 @@ p {
   }
 }
 
-@media (min-width: 992px) {
-  
-img {
-  max-width: 100%;
-  height: auto;
-}
-}
 
-/* @media (min-width: 992px) and (max-width: 1199px) {
-
-  .new {
-    top: 9.5%;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .head-section img, nav img {
+    max-width: 100%;
+    height: auto;
   }
-  
- 
 }
- */
-
 
 @media (max-width: 576px) {
   .col-lg-9 .row.mx-4.my-5 {
