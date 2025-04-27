@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Plus Jakarta Sans"; */
+  font-family: "Plus Jakarta Sans";
 }
 .head-section {
   background: linear-gradient(to left, #dbf4e2, #f6fdec);
