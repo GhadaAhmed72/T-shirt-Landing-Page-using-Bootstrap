@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.btn-success-modified{  
+    background-color: #2EBB77 !important;
+    color: #FFFFFF !important;
+    
+} 
+.btn-modified{
+    width: 150px;
+    height: 48px;
+    border-radius: 0.75rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+.website-container{
+    position: relative;
+}
+.website-container .cover-section{
+    text-align: center;
+    padding: 40px 0;
+    background-color: #F5F5F5;
+}
+
+.website-container .cover-section .content span{
+    color: #7E7E7E;
+    font-size: 0.85rem;
+}
+.website-container .cover-section .content span:last-of-type{
+    color: #000;
+}
+.website-container .cover-section .content .line{
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background-color: #7E7E7E;
+    margin: 0 10px;
+}
+
+.website-container .section-title{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.website-container .section-subtitle{
+    font-size: 0.85rem;
+    color: #7E7E7E;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.website-container .our-team-circle-section .our-team-circle-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 30px;
+}
+
+
+.website-container .end-section{
+    position: relative;
+    min-height: 380px;
+    background-image: url("../assests/Our-Team/Main.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f3ebfa;
+}
+
+.website-container .end-section .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.website-container .end-section .content h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    max-width: 500px;
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+
+.website-container .end-section .content p{
+    font-size: 0.85rem;
+    color: #7E7E7E;
+    max-width: 500px;
+    margin-bottom: 20px;    
+}
+
+.website-container .end-section .content button{
+    font-size: 0.77rem;
+}
+.website-container .companies-section{
+    width: 100%;
+}
+.website-container .companies-section .companies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.website-container .companies-section .companies-container .company-card{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.email-input input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 85%;
+  
+  }
+
+  footer p{
+    margin-bottom: 1rem !important;
+    color: #7E7E7E;
+  }
+.go-top{
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #B3B3B3;
+    color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+    .website-container .our-team-circle-section .our-team-circle-container{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .website-container .our-team-circle-section .our-team-circle-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .website-container .end-section{
+        background-image: none;
+    }    
+    .website-container .end-section .content h2 {
+        line-height: 40px;
+    }    
+}
+
+@media screen and (max-width: 575px) {
+    .website-container .our-team-circle-section .our-team-circle-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .website-container .end-section .content{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .website-container .end-section .content h2 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        max-width: 100%;
+        margin-bottom: 20px;
+        line-height: 40px;
+    }    
+}
+
+@media screen and (max-width: 400px) {
+    .website-container .our-team-circle-section .our-team-circle-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .btns-container{
+        flex-direction: column;
+    }
+}
