@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+p{
+    margin: 0!important;
+}
+.bg-success, .btn-success{
+    background-color: #2EBB77 !important;
+    border: none !important;
+}
+
+
+.website-container .hero-section{
+    position: relative;
+    min-height: 400px;
+}
+
+.website-container .hero-section .content{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+    z-index: 2;
+}
+.website-container .hero-section .content .content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.website-container .hero-section .content .content-container::after{
+    content: url("../assests/Home-2/Group\ 14.png");
+    position: absolute;
+    top: 20px;
+    right: -43px;
+    width: 435px;
+    height: 180px;
+    background-size: contain;
+    z-index: 1;
+}
+.website-container .hero-section .content .content-container h2{
+    font-size: 2.95rem;
+    font-weight: 700;
+    max-width: 555px;
+    margin-bottom: 90px;
+    line-height: 60px;
+}
+.website-container .hero-section .content .content-container p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    max-width: 420px;
+    margin-bottom: 40px !important;
+    line-height: 30px;
+    color: #7E7E7E;
+}
+
+.website-container .category-section .category-card p{
+    position: relative;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+}
+
+.website-container .category-section .category-card p span{
+    position: absolute;
+    top: -5px;
+    right: -15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #7E7E7E;
+}
+
+.website-container .banner-section .banner-card{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.website-container .banner-section .banner-card .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px;
+}
+
+.website-container .banner-section .banner-card .content h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    max-width: 200px;
+}
+
+.website-container .banner-section .banner-card .content p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #7E7E7E;
+    max-width: 180px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.website-container .banner-section .banner-card .content button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 0.77rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.card-paragraph{
+    font-weight: 700;
+    color: black;
+}
+
+.card-span{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: black;
+}
+.card-has-badges{
+    position: relative;
+}
+
+.badges{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.color-span{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #EEEEEE;
+    display: inline-block;
+}
+.website-container .explanation-section .instractions-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.website-container .explanation-section .instractions-container .instraction{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.website-container .explanation-section .instractions-container .instraction p{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 0;
+    max-width: 300px;
+}
+
+.website-container .explanation-section .instractions-container .instraction .number{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    color: #2ebb77;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.website-container .explanation-section .instractions-container .instraction .number.active{
+    background-color: #2ebb77;
+    color: white;
+}
+.website-container .explanation-section .instractions-container .instraction .line{
+    position: absolute;
+    width: 2px;
+    left: 10px;
+    top: 45px;
+}
+.website-container .explanation-section .instractions-container .instraction .line-1{
+    height: 6px;
+    width: 100%;
+    margin-bottom: 5px !important;
+    background-color: #CCCCCC;
+}
+.website-container .explanation-section .instractions-container .instraction .line-2{
+    height: 12px;
+    width: 100%;
+    margin-bottom: 5px !important;
+    background-color: #CCCCCC;
+}
+.website-container .explanation-section .instractions-container .instraction .line-3{
+    height: 3px;
+    width: 100%;
+    margin-bottom: 5px !important;
+    background-color: #CCCCCC;
+}
+.card-span{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #7E7E7E;
+}
+.website-container .templates-section .templates-container {
+    justify-content: space-between;
+}
+.website-container .templates-section .templates-container .template-card{
+    max-width: 300px;
+}
+.website-container .templates-section .templates-container .template-card-special{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.website-container .templates-section .templates-container .template-card-special .template-card-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.website-container .templates-section .templates-container .template-card-special::after{
+    content: "" ;
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+    width: 100% ;
+    height: 100% ;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    z-index: 1 ;
+    border-radius: 10px;
+}
+.website-container .testmonials-section  .apps-container{
+    position: relative;
+}
+.website-container .testmonials-section  .apps-container .dowload-details{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.website-container .testmonials-section .testmonial-container{
+    background-color: #E5F4ED;
+    padding: 20px;
+}
+.website-container .gallery-section {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(18%, 1fr));
+    gap: 10px;
+}
+
+.website-container .gallery-section .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.email-input input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 85%;
+  
+  }
+
+  footer p{
+    margin-bottom: 1rem !important;
+    color: #7E7E7E;
+  }
+
+.go-top{
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #B3B3B3;
+    color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1199px) {
+    .website-container .hero-section .content{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        text-align: center;
+        z-index: 2;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .website-container .hero-section .content{
+        top: 20px;
+        left: 20px;
+    }
+    .website-container .hero-section .content .content-container h2{
+        font-size: 2rem !important;
+        margin-bottom: 30px !important;
+    }
+    .website-container .hero-section .content .content-container p{
+        font-size: 1.2rem !important;
+        margin-bottom: 20px !important;
+    }
+    .website-container .hero-section .content .content-container::after{
+        top: 3px;
+        right: -40px;
+        width: 435px;
+        height: 180px;
+        background-size: contain;
+        z-index: 1;
+        transform: scale(.75);
+    }
+
+
+    .website-container .gallery-section {
+        grid-template-columns: repeat(4, minmax(18%, 1fr));
+    }
+    .website-container .templates-section .templates-container .template-card{
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .website-container .hero-section {
+        overflow: hidden;
+        border-radius: 0.75rem;
+    }
+    .website-container .hero-section img{
+        min-height: 100%;
+        width: fit-content;
+        object-fit: cover;
+        
+    }
+    .website-container .hero-section .content{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+    }
+    .website-container .gallery-section {
+        grid-template-columns: repeat(3, minmax(18%, 1fr));
+    }
+    .website-container .templates-section .templates-container{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .website-container .hero-section .content .content-container h2{
+        font-size: 1.5rem !important;
+        margin-bottom: 40px !important;
+        max-width: 280px;
+        line-height: 30px;
+    }
+    .website-container .hero-section .content .content-container p{
+        font-size: 1rem !important;
+        margin-bottom: 10px !important;
+        max-width: 280px;
+    }
+    .website-container .hero-section .content .content-container::after{
+        content: none;
+    }
+
+    .website-container .banner-section .banner-card .content {
+        top: 50%;
+        left: 30px;
+        transform: translateY(-50%);
+        padding: 10px;
+    }
+    .website-container .banner-section .banner-card .content h3{
+        font-size: 1.15rem !important;
+    }
+    .website-container .banner-section .banner-card .content p{
+        font-size: 0.75rem;
+        max-width: 150px;
+    }
+    .website-container .banner-section .banner-card .content button{
+        padding: 5px 10px !important;
+        font-size: 0.7rem !important;
+    }
+    .website-container .templates-section .templates-container .template-card{
+        max-width: 220px;
+        justify-content: center;
+    }
+    .website-container .gallery-section {
+        grid-template-columns: repeat(2, minmax(18%, 1fr));
+    }
+    .website-container .explanation-section h3{
+        font-size: 1.5rem;
+        margin: auto;
+        max-width: 300px;
+    }
+    .website-container .explanation-section .instractions-container{
+        padding: 5px;
+    }
+    .website-container .explanation-section .instractions-container .instraction{
+        gap: 5px;
+    }
+    .website-container .explanation-section .instractions-container .instraction p{
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 25px;
+        margin: 0;
+        max-width: 218px;
+    }
+    .website-container .testmonials-section .apps-container .dowload-details{
+        left: 10px;
+    }
+    .website-container .testmonials-section .apps-container .dowload-details h3{
+        font-size: 1.5rem !important;
+        margin: 5px !important;
+    }
+    .website-container .testmonials-section .apps-container .dowload-details p{
+        font-size: 0.75rem !important;
+        margin: 5px !important;
+    }
+    .website-container .testmonials-section .apps-container .dowload-details .stores .store-image img{
+        width: 100px !important;
+    }
+}
+
+@media  screen and (max-width: 420px) {
+    .website-container .search-input{
+        font-size: 0.75rem !important;
+    }
+    .website-container .search-btn{
+        width: fit-content !important;
+    }
+    .website-container .banner-section .banner-card .content {
+        left: 20px;
+        padding: 5px;
+    }
+    .website-container .banner-section .banner-card .content h3{
+        font-size: 1rem !important;
+        max-width: 120px ;
+        margin: 0 !important;
+    }
+    .website-container .banner-section .banner-card .content p{
+        font-size: 0.65rem;
+        max-width: 120px;
+        margin: 5px 0 !important;
+    }
+    .website-container .banner-section .banner-card .content button{
+        font-size: 0.6rem !important;
+    }
+
+    .website-container .testmonials-section .testmonial-container .testmonial-review{
+        font-size: 1rem !important;
+        line-height: 1.5rem !important;
+    }
+}
