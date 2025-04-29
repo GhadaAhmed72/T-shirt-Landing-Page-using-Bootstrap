@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
+    <!-- <link rel="stylesheet" href="../style.css"> -->
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+    <title>Shop page</title>
+</head>
+<body>
+  <section class="head-section position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="d-flex justify-content-center head gap-2">
+            <img src="../images/1f525.svg.svg" alt="svg image" />
+            <p class="d-flex align-items-center my-1">
+              Free shipping on all U.S. orders $50+
+            </p>
+            <button>Shop Now</button>
+            <!-- <div class="close-tab position-absolute my-1" style=" right:0; ">
+              <i class="fa-solid fa-xmark"></i>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"
+        ><img
+          src="../images//logo-black.png.png"
+          alt="nav-logo"
+          style="margin-left: 40px"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown home">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Home
+            </a>
+            <ul
+              class="dropdown-menu home-dropdown"
+              aria-labelledby="navbarDropdown"
+            >
+              <li><a class="dropdown-item" href="#">Home2</a></li>
+              <!-- link  home 2 -->
+              <li><a class="dropdown-item" href="#">Home3</a></li>
+              <!-- link home 3 -->
+              <li><a class="dropdown-item" href="#">Home4</a></li>
+              <!-- link home 4 -->
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown navs-link">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              TeeSpace
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown navs-link">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Shop
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown navs-link">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Blog
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown navs-link">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+            </ul>
+          </li>
+
+          <li class="d-flex align-items-center">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </li>
+        </ul>
+
+        <div class="right-nav-side">
+          <div class="cart">
+            <img src="../images/Link.svg" alt="link-svg" class="link-img" />
+            <div class="notification">0</div>
+          </div>
+
+          <div class="hotline">
+            <span style="color: #9b9b9b">HOTLINE:</span>
+            <span class="fw-bold fs-5">0019008188</span>
+          </div>
+
+          <button>Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  
+
+    <header>
+        <div class="py-5 d-flex justify-content-center align-items-center flex-column" style="background-color: #F5F5F5;">
+          <h2 class="fw-bold"> Shop</h2>
+          <div class="d-flex gap-2">
+            <p class="home-paragr">Home</p>
+          <p class="text-dark">Shop</p>
+          </div>
+        </div>
+    </header>
+
+    <section >
+        <div class="container my-5">
+            <div class="row ">
+
+                <div class="col-lg-3 left-section">
+                    <h6 class="my-3 fw-bold">Search</h6>
+                    <div class="search">
+                        <input type="text" placeholder="Search products…" >
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <!-- product categories -->
+                    <div class="my-4">
+                        <h5 class="fw-bold my-4">Product categories</h5>
+
+                        <div class="position-relative my-2">
+                            <p>Hoodie</p>
+                           <div class="position-absolute end-0 top-0">
+                            <span>11</span>
+                           </div>
+                        </div>
+                        <div class="position-relative my-2">
+                            <p>Kids</p>
+                           <div class="position-absolute end-0 top-0">
+                            <span>4</span>
+                           </div>
+                        </div>
+                        <div class="position-relative my-2">
+                            <p>Long Sleeves</p>
+                           <div class="position-absolute end-0 top-0">
+                            <span>0</span>
+                           </div>
+                        </div>
+                        <div class="position-relative my-2">
+                            <p>Product Designer</p>
+                           <div class="position-absolute end-0 top-0">
+                            <span>2</span>
+                           </div>
+                        </div>
+                        <div class="position-relative my-2">
+                            <p>Sweater</p>
+                           <div class="position-absolute end-0 top-0">
+                            <span>2</span>
+                           </div>
+                        </div>
+                        <div class="position-relative my-2">
+                            <p>T-Shirt</p>
+                           <div class="position-absolute end-0 top-0">
+                            <span>5</span>
+                           </div>
+                        </div>
+
+                        <!-- filter by price -->
+                        <div class="price-filter my-5 ">
+                          <h5 class="fw-bold my-4">Filter by price</h5>
+                          <div class="range-slider" >
+                            <input type="range" min="0" max="200" value="10" id="min-price">
+                            <input type="range" min="0" max="200" value="160" id="max-price">
+                          </div>
+                          <div class="price-values d-flex gap-3 position-relative">
+                            <p>Price :</p>
+                            <h5 id="min-price-value">$10</h5> 
+                            <p><i class="fa-solid fa-minus"></i></p>
+                            <h5 id="max-price-value">$160</h5>
+
+                            <div class="filter-button position-absolute end-0">
+                              <button>Filter</button>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <!-- Filter by color -->
+                        <div class="my-4">
+                          <h5 class="my-5 fw-bold">Filter by Color</h5>
+  
+                          <div class="position-relative my-2">
+                            <div class="d-flex gap-2">
+                              <img src="../images/Item → Link (1).png" width="25px" height="25px">
+                              <p>Black</p>
+                            </div>
+                             <div class="position-absolute end-0 top-0">
+                              <span>14</span>
+                             </div>
+                          </div>
+                          <div class="position-relative my-2">
+                            <div class="d-flex gap-2">
+                              <img src="../images/Item → Link (2).png" width="25px" height="25px">
+                              <p>Brown</p>
+                            </div>
+                             <div class="position-absolute end-0 top-0">
+                              <span>13</span>
+                             </div>
+                          </div>
+                          <div class="position-relative my-2">
+                            <div class="d-flex gap-2">
+                              <img src="../images/Item → Link (3).png" width="25px" height="25px">
+                              <p>Red</p>
+                            </div>
+                             <div class="position-absolute end-0 top-0">
+                              <span>13</span>
+                             </div>
+                          </div>
+                          <div class="position-relative my-2">
+                            <div class="d-flex gap-2">
+                              <img src="../images/Item → Link (4).png" width="25px" height="25px">
+                              <p>White</p>
+                            </div>
+                             <div class="position-absolute end-0 top-0">
+                              <span>13</span>
+                             </div>
+                          </div>
+                          <div class="position-relative my-2">
+                            <div class="d-flex gap-2">
+                              <img src="../images/Item → Link (5).png" width="25px" height="25px">
+                              <p>White</p>
+                            </div>
+                             <div class="position-absolute end-0 top-0">
+                              <span>13</span>
+                             </div>
+                          </div>
+
+                          <!-- Filter by size -->
+                          <div class="my-4">
+                            <h5 class="fw-bold my-4">Filter by Size</h5>
+    
+                            <div class="position-relative my-2">
+                                <p>2XL</p>
+                               <div class="position-absolute end-0 top-0">
+                                <span>14</span>
+                               </div>
+                            </div>
+                            <div class="position-relative my-2">
+                                <p>3XL</p>
+                               <div class="position-absolute end-0 top-0">
+                                <span>14</span>
+                               </div>
+                            </div>
+                            <div class="position-relative my-2">
+                                <p>L</p>
+                               <div class="position-absolute end-0 top-0">
+                                <span>14</span>
+                               </div>
+                            </div>
+                            <div class="position-relative my-2">
+                                <p>M</p>
+                               <div class="position-absolute end-0 top-0">
+                                <span>14</span>
+                               </div>
+                            </div>
+                            <div class="position-relative my-2">
+                                <p>S</p>
+                               <div class="position-absolute end-0 top-0">
+                                <span>14</span>
+                               </div>
+                            </div>
+                            <div class="position-relative my-2">
+                                <p>2XL</p>
+                               <div class="position-absolute end-0 top-0">
+                                <span>14</span>
+                               </div>
+                            </div>
+                         
+                            <!-- Filter by material -->
+                            <div class="my-4">
+                              <h5 class="my-5 fw-bold">Filter by Color</h5>
+      
+                              <div class="position-relative my-2">
+                                <div class="d-flex gap-2">
+                                  <img src="../images/material1.png" width="25px" height="25px">
+                                  <p>Glass</p>
+                                </div>
+                                 <div class="position-absolute end-0 top-0">
+                                  <span>14</span>
+                                 </div>
+                              </div>
+                              <div class="position-relative my-2">
+                                <div class="d-flex gap-2">
+                                  <img src="../images/material2.png" width="25px" height="25px">
+                                  <p>Metal</p>
+                                </div>
+                                 <div class="position-absolute end-0 top-0">
+                                  <span>14</span>
+                                 </div>
+                              </div>
+                              <div class="position-relative my-2">
+                                <div class="d-flex gap-2">
+                                  <img src="../images/material3.png" width="25px" height="25px">
+                                  <p>Paper</p>
+                                </div>
+                                 <div class="position-absolute end-0 top-0">
+                                  <span>14</span>
+                                 </div>
+                              </div>
+                              <div class="position-relative my-2">
+                                <div class="d-flex gap-2">
+                                  <img src="../images/material4.png" width="25px" height="25px">
+                                  <p>Wood</p>
+                                </div>
+                                 <div class="position-absolute end-0 top-0">
+                                  <span>14</span>
+                                 </div>
+                              </div>
+                              </div>
+
+                              <!-- Price filter -->
+                              <div class="my-4">
+                                <h5 class="my-4 fw-bold">Price filter</h5>
+                                <h6 class="my-4">All</h6>
+                                <p style="font-size: 17px;">$0.00 - $40.00</p>
+                                <p style="font-size: 17px;" >$40.00 - $80.00</p>
+                                <p style="font-size: 17px;">$80.00 - $120.00</p>
+                                <p style="font-size: 17px;">$120.00 - $160.00</p>
+                
+                               </div>
+
+                               <!-- Sort by  -->
+                               <div class="my-4">
+                                <h5 class="my-4 fw-bold">Sort by</h5>
+                                <p style="font-size: 18px;">Popularity</p>
+                                <p style="font-size: 18px;">Average rating</p>
+                                <p style="font-size: 18px;">Latest</p>
+                                <p style="font-size: 18px;">Price: low to high</p>
+                                <p style="font-size: 18px;">Price: high to low</p>
+                               </div>
+
+                               <!-- stock status -->
+                               <div class="my-4">
+                                <h5 class="my-4 fw-bold">Stock status</h5>
+        
+                                <div class=" my-2">
+                                  <div class="d-flex gap-2">
+                                    <input type="checkbox" >
+                                    <p class="my-1" style="font-size: 18px;"> On sale</p>
+                                  </div>
+                                </div>
+                                <div class=" my-2">
+                                  <div class="d-flex gap-2">
+                                    <input type="checkbox" >
+                                    <p class="my-1" style="font-size: 18px;">  In stock</p>
+                                  </div>
+                                </div>
+                                <div class=" my-2">
+                                  <div class="d-flex gap-2">
+                                    <input type="checkbox" >
+                                    <p class="my-1" style="font-size: 18px;">  Out of stock</p>
+                                  </div>
+                                </div>
+                                <div class=" my-2">
+                                  <div class="d-flex gap-2">
+                                    <input type="checkbox" >
+                                    <p class="my-1" style="font-size: 18px;">  In stock</p>
+                                  </div>
+                                </div>
+                                </div>
+
+                                <!-- product tags -->
+                                <div class="my-4">
+                                  <h5 class="my-4 fw-bold">Price filter</h5>
+                                  <div class="d-flex product-tags gap-3">
+                                    <p>Designer</p>
+                                    <p>Kids</p>
+                                    <p>T-shirt</p>
+                                    <p>Women</p>
+                                  </div>
+
+                                  </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+             <!-- product section (right section) -->
+             <div class="col-lg-9">
+              <div class="container my-3">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <span>Showing 1–12 of 20 results</span>
+                  </div>
+                  <div class="d-flex gap-3" >
+                    <div>
+                      <select class="form-select custom-select" style="width: 180px;">
+                        <option selected>Default sorting</option>
+                        <option value="1">Sort by price: low to high</option>
+                        <option value="2">Sort by price: high to low</option>
+                      </select>
+                    </div>
+                    <div class="view-toggle d-flex gap-3 my-2">
+                      <span>See</span>
+                      <i class="fas fa-th-large"></i>
+                      <i class="fas fa-list"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mx-4 my-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+                  <div class="card1 position-relative  ">
+                    <img src="../images/Link → 2-330x440.jpg.png" width="280px" height="360px" style="border-radius: 15px;">
+                   <div class="card-description py-3 ">
+                    <h6>Adult Quantity Tee</h6>
+                    <p>$26.00 – $29.00</p>
+                    <div>
+                      <img src="../images/Item.svg" alt="" width="15px" height="15px">
+                      <img src="../images/Item (1).svg" alt="" width="15px" height="15px">
+                      <span>+3</span>
+                    </div>
+                   </div>
+                   <div class="sale">
+                    Sale!
+                   </div>
+                   <div class="new">
+                    New
+                   </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+                  <div class="card2 position-relative  ">
+                    <img src="../images/Link → 4-12-330x440.jpg.png" width="280px" height="360px" style="border-radius: 15px;">
+                   <div class="card-description py-3 ">
+                    <h6>All-Over-Print Hoodie</h6>
+                    <p>$26.00 – $29.00</p>
+                    <div>
+                      <img src="../images/Item.svg" alt="" width="15px" height="15px">
+                      <img src="../images/Item (1).svg" alt="" width="15px" height="15px">
+                      <span>+3</span>
+                    </div>
+                   </div>
+                   <div class="sale">
+                    Sale!
+                   </div>
+                   <div class="new">
+                    New
+                   </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+                  <div class="card3 position-relative  ">
+                    <img src="../images/Link → 1-4-330x440.jpg.png" width="280px" height="360px" style="border-radius: 15px;">
+                   <div class="card-description py-3 ">
+                    <h6>AOP Cut & Sew Tee</h6>
+                    <p>$26.00 – $29.00</p>
+                    <div>
+                      <img src="../images/Item.svg" alt="" width="15px" height="15px">
+                      <img src="../images/Item (1).svg" alt="" width="15px" height="15px">
+                      <span>+3</span>
+                    </div>
+                   </div>
+                   <div class="sale">
+                    Sale!
+                   </div>
+                   <div class="new">
+                    New
+                   </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+                  <div class="card4 position-relative">
+                    <img src="../images/Link → 17-330x440.jpg.png" width="280px" height="360px" style="border-radius: 15px;">
+                   <div class="card-description text-center py-3">
+                    <h6>Fine Jersey Tee</h6>
+                    <p>$28.00 <del>$31.00</del></p>
+                   </div>
+                   <div class="sale">
+                    -26%
+                   </div>
+                   <div class="card4-hot">
+                    Hot
+                   </div>
+
+                  </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+                  <div class="card5 position-relative  ">
+                    <img src="../images/Link → 1-8-330x440.jpg.png" width="280px" height="360px" style="border-radius: 15px;">
+                   <div class="card-description py-3 ">
+                    <h6>Fit Round-neck T-shirt</h6>
+                    <p>$26.00 – $29.00</p>
+                    <div>
+                      <img src="../images/Item.svg" alt="" width="15px" height="15px">
+                      <img src="../images/Item (1).svg" alt="" width="15px" height="15px">
+                      <span>+3</span>
+                    </div>
+                   </div>
+                   <div class="sale">
+                    Sale!
+                   </div>
+                   <div class="new">
+                    New
+                   </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+                  <div class="card6 position-relative  ">
+                  
+                    <img src="../images/Link → 10-330x440.jpg.png" width="280px" height="360px" style="border-radius: 15px;">
+                       <div class="card-description text-center py-3">
+                        <h6>Hooded Sweatshirt</h6>
+                        <p>$28.00</p>
+                       
+                       </div>
+                       <div class="hot">
+                        Hot
+                       </div>
+                      </div>
+                    </div>
+
+                     
+                <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+                  <div class="card7 position-relative  ">
+                    <img src="../images/Link → 16-2-330x440.jpg.png" width="280px" height="360px" style="border-radius: 15px;">
+                   <div class="card-description py-3 ">
+                    <h6>Kids Hoodie</h6>
+                    <p>$26.00 – $29.00</p>
+                    <div>
+                      <img src="../images/Item.svg" alt="" width="15px" height="15px">
+                      <img src="../images/Item (1).svg" alt="" width="15px" height="15px">
+                      <span>+3</span>
+                    </div>
+                   </div>
+                   <div class="sale">
+                    Sale!
+                   </div>
+                   <div class="new">
+                    New
+                   </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 my-4 ">
+                  <div class="card8 position-relative  ">
+                    <img src="../images/Link → 1-330x440.jpg.png" width="280px" height="360px" style="border-radius: 15px;">
+                   <div class="card-description py-3 ">
+                    <h6>Lightweight Fashion Tee</h6>
+                    <p>$28.00 <del>$31.00</del></p>
+                    <div>
+                      <img src="../images/text.svg" alt="" width="15px" height="15px">
+                    </div>
+                   </div>
+                   <div class="sale">
+                    Sale!
+                   </div>
+                   <div class="new">
+                    New
+                   </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+                  <div class="card9 position-relative  ">
+                    <img src="../images/Link → 10-4-330x440.jpg.png" width="280px" height="360px" style="border-radius: 15px;">
+                   <div class="card-description py-3 ">
+                    <h6>Midweight Cotton Tee</h6>
+                    <p>$26.00 – $29.00</p>
+                    <div>
+                      <img src="../images/Item.svg" alt="" width="15px" height="15px">
+                      <img src="../images/Item (1).svg" alt="" width="15px" height="15px">
+                      <span>+3</span>
+                    </div>
+                   </div>
+                   <div class="sale">
+                    Sale!
+                   </div>
+                   <div class="new">
+                    New
+                   </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+                  <div class="card10 position-relative">
+                    <img src="../images/Link → 3-330x440.jpg.png" width="280px" height="360px" style="border-radius: 15px;">
+                   <div class="card-description text-center py-3">
+                    <h6>Premium Crewneck Sweatshirt</h6>
+                    <p>$29.00 <del>$39.00</del></p>
+                   </div>
+                   <div class="sale">
+                    -26%
+                   </div>
+      
+                   <div class="sold-out">
+                    <h6>Sold Out </h6>
+                   </div>
+      
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+                  <div class="card11 position-relative  ">
+                    <img src="../images/Link → 5-330x440.jpg.png" width="280px" height="360px" style="border-radius: 15px;">
+                   <div class="card-description py-3 ">
+                    <h6>Premium Pullover Hoodie</h6>
+                    <p>$26.00 – $29.00</p>
+                    <div>
+                      <img src="../images/Item.svg" alt="" width="15px" height="15px">
+                      <img src="../images/Item (1).svg" alt="" width="15px" height="15px">
+                      <span>+3</span>
+                    </div>
+                   </div>
+                   <div class="sale">
+                    Sale!
+                   </div>
+                   <div class="new">
+                    New
+                   </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+                  <div class="card11 position-relative  ">
+                    <img src="../images/Link → 3-4-330x440.jpg.png" width="280px" height="360px" style="border-radius: 15px;">
+                   <div class="card-description py-3 ">
+                    <h6>Product Price by Options</h6>
+                    <p>$26.00 – $29.00</p>
+                    <div>
+                      <img src="../images/Item.svg" alt="" width="15px" height="15px">
+                      <img src="../images/Item (1).svg" alt="" width="15px" height="15px">
+                      <span>+3</span>
+                    </div>
+                   </div>
+                   <div class="sale">
+                    Sale!
+                   </div>
+                   <div class="new">
+                    New
+                   </div>
+                  </div>
+                </div>
+
+                </div>
+
+
+
+                <nav aria-label="Page navigation example" class="d-flex justify-content-center my-5">
+                  <ul class="pagination">
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">»</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            
+                  
+
+             </div>
+
+             </div>
+             </div>
+
+    </section>
+
+     <!-- Footer -->
+     <footer  style="background-color: #F5F5F5; margin-top: 15px;">
+      <div class="container py-4">
+        <div class="row my-5">
+
+          <div class="col-lg-3 col-md-6 col-sm-12 lh-3">
+            <div>
+              <img src="../images/logo-black.png.png">
+             <div class="mx-3">
+              <p>hello@teespace.io</p>
+              <h6 class="fw-bold">+02 036 038 3996</h6>
+              <p>3665 Paseo Place, Suite 0960<br>
+                San Diego</p>
+             </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6  col-sm-12 lh-3 my-2">
+            <div>
+              <h5  class="fw-bold">Information</h5>
+             <div class="my-3">
+              <p>About Us</p>
+              <p>Our Blog</p>
+              <p>Start a Return</p>
+              <p>Contact Us</p>
+              <p>Shipping FAQ</p>
+             </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6  col-sm-12 lh-3 my-2">
+            <div>
+              <h5 class="fw-bold">Useful links</h5>
+             <div class="my-3">
+              <p>My Account</p>
+              <p>Print Provider</p>
+              <p>Become a Partner</p>
+              <p>Custom Products</p>
+              <p>Make your own shirt</p>
+             </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6  col-sm-12 lh-3 my-2">
+            <div>
+              <h5  class="fw-bold">Newsletter</h5>
+              <p class="my-3">Get the latest news, events & more delivered
+                to your inbox.</p>
+             <div class="email-input">
+            <input type="email" placeholder="Your email address">
+            
+             </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="text-center col-lg-12 col-md-12 col-sm-12">
+          <img src="./images/footer-payment-method.png.png" alt="" class="my-2">
+          <p class="my-2">© 2025 TeeSpace. All rights reserved.</p>
+        </div>
+      </div>
+     </footer>
+
+    
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./shop.js"></script>
+</body>
+</html>
