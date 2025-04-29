@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+font-family: "Plus Jakarta Sans";
+}
+header{
+    height: 57px;
+    background-color: #F4EEFA;
+}
+.cancel-icon{
+   right: 10px;
+   cursor: pointer;
+}
+header small{
+    padding: 1px 0px;
+    color: #B479D9;
+text-align: center;
+font-family: "Plus Jakarta Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 140% */
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.nav-bar{
+display: flex;
+padding: 0px 38.41px 0px 38.39px;
+justify-content: center;
+align-items: center;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-icons img:first-child{
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+}
+.search-icon{
+margin-top: 0;
+}
+.person-icon{
+    margin-top: -6px;
+    width: 30px;
+}
+.nav-btn-hover:hover{
+background-color: #9B9B9B;
+color: white;
+}
+.navbar-toggler{
+    padding: 0 !important;
+    color: black;
+    border: none !important;
+    outline: none !important;
+}
+.navbar-toggler:focus, .navbar-toggler:focus-visible{
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+}
+.logo img{
+    width: 180px;
+height: 48px;
+flex-shrink: 0;
+}
+.navbar button{
+    padding: 0 20px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 2px solid #EEE;
+}
+.active{
+    color: #2EBB77 !important;
+}
+.about-title{
+    color: #000000;
+   
+    height: 67px;
+}
+.about-title span:first-child{
+    color: #7E7E7E;
+}
+
+/* Pricing card styles */
+.pricing-card-featured {
+    position: relative;
+    z-index: 2;
+}
+
+.pricing-card-featured img,.simple-pricing img{
+    background-color: #E2F5F2;
+    width: 18px;
+    border-radius: 50%;
+}
+.simple-pricing .btn{
+    background: rgba(46, 187, 119, 0.10);
+    
+color: black;
+}
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+.card:hover .btn{
+    background-color: #2EBB77;
+}
+/* Button styles */
+.btn {
+    background-color: #2EBB77;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #2EBB77;
+}
+
+.btn-outline-success:hover {
+    background-color: #4ade80;
+    border-color: #4ade80;
+}
+.first-side{
+    border-right: 1px solid rgba(92, 89, 89,0.2);
+}
+.access-update p{
+  color:  #7E7E7E;  
+}
+
+.btn-group .btn:first-child{
+    background-color: #F8F8F8!important;
+    color: #7E7E7E;
+    font-weight: bold;
+}
+.btn-group .btn:last-child{
+    background-color: white!important;
+    color: #7E7E7E;
+    font-weight: bold;
+}
+.green-circle{
+    position: absolute;
+    top: -30px ;
+    width: 200px ;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #51c58d;
+    right: -10px;
+}
+.plan2 p{
+    color: #7E7E7E !important;
+  }
+  .plan2 .card-body:hover{
+   border:1px solid #2EBB77;
+   border-radius: 20px;
+  }
+  input[type="radio"]{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid rgb(212, 206, 206);
+    vertical-align: middle;
+    position: relative;
+  }
+  input[type="radio"]:checked::before{
+    position: absolute;
+    content: "";
+    top: 2px;
+    left: 2px;
+    width: 12px;
+    height: 12px;
+    background-color: #2EBB77;
+    border-radius: 50%;
+  }
+  .search-icon{
+    top: 20%;
+    font-size: 200px;
+    left: 10px;
+  }
+  .before::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 95.04px;
+opacity: 0.7;
+background: linear-gradient(90deg, #2EBB77 23.86%, rgba(46, 187, 119, 0.40) 93.86%);
+left: -40px;
+top:60%;
+  }
+/* Responsive adjustments */
+@media (max-width: 968px) {
+    .green-circle {
+      display: none;
+    }
+    .access-update{
+        text-align: start !important;
+        margin-top: 20px !important;
+        padding: 0 !important;
+    }
+}
+@media (max-width: 575.98px) {
+    footer .col-sm-12{
+      text-align: center;
+    }
+  }
