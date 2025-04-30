@@ -43,10 +43,13 @@ This project comprises a responsive web application developed for a T-shirt land
 - Print Page
 
 
-### Abdelrahman Mahmoud Arfa: [Team Member Four]
+### Abdelrahman Mahmoud Arafa: [Team Member Three]
 - Home Page 3
+- Services Page
+- Shop Details Page
+- FAQ Page
 
-### Alaa Elsayed: [Team Member Three]
+### Alaa Elsayed: [Team Member Four]
 - Home page 4
 - Blog details page
 - Pricing Page
