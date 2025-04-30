@@ -15,6 +15,8 @@
 ## Overview
 This project comprises a responsive web application developed for a T-shirt landing page, utilizing the Bootstrap framework. The application's objective is to deliver a visually appealing and user-friendly experience to showcase and facilitate the sale of T-shirts. The design is based on an exploration of various T-shirt landing page templates found on Figma to ensure a modern and effective design. This project was developed as part of the ITI Intensive Code Camp Program.
 
+**Figma Design Source Files**:https://www.figma.com/community/file/1338143066623036607 
+
   ### Screenshot
   
   ![Large Screen page1](./screenshot1.png) 
