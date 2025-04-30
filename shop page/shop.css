@@ -461,4 +461,225 @@
 }
 
 
+@media (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
 
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .head-section {
+    padding: 3px;
+  }
+
+  .head-section .head {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+  }
+
+  .head-section p {
+    font-size: 12px;
+  }
+
+  .head-section button {
+    width: 100px;
+    height: 28px;
+    font-size: 12px;
+  }
+
+  .navbar-brand img {
+    margin-left: 10px;
+    width: 100px;
+  }
+
+  .right-nav-side {
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 10px;
+    align-items: center;
+  }
+
+  .right-nav-side button {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .hotline {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .notification {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+  }
+
+  header h2 {
+    font-size: 24px;
+  }
+
+  .home-paragr::after {
+    width: 20px;
+  }
+
+  .left-section {
+    padding: 0 10px;
+  }
+
+  .left-section h5,
+  .left-section h6 {
+    font-size: 16px;
+  }
+
+  .search input {
+    padding: 6px 8px 6px 30px;
+    font-size: 14px;
+  }
+
+  .search i {
+    font-size: 14px;
+    right: 10px;
+  }
+
+  .product-tags p {
+    width: 80px;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .price-filter {
+    width: 100%;
+  }
+
+  .range-slider input[type="range"]::-webkit-slider-thumb {
+    width: 14px;
+    height: 14px;
+  }
+
+  .price-values {
+    font-size: 14px;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .filter-button button {
+    width: 70px;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .col-lg-9 .row.mx-4.my-5 {
+    margin: 0;
+  }
+
+  .col-lg-9 .col-sm-12 {
+    padding: 0 5px;
+  }
+
+  .col-lg-9 .card1,
+  .col-lg-9 .card2,
+  .col-lg-9 .card3,
+  .col-lg-9 .card4,
+  .col-lg-9 .card5,
+  .col-lg-9 .card6,
+  .col-lg-9 .card7,
+  .col-lg-9 .card8,
+  .col-lg-9 .card9,
+  .col-lg-9 .card10,
+  .col-lg-9 .card11 {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+
+  .col-lg-9 .card1>img,
+  .col-lg-9 .card2>img,
+  .col-lg-9 .card3>img,
+  .col-lg-9 .card4>img,
+  .col-lg-9 .card5>img,
+  .col-lg-9 .card6>img,
+  .col-lg-9 .card7>img,
+  .col-lg-9 .card8>img,
+  .col-lg-9 .card9>img,
+  .col-lg-9 .card10>img,
+  .col-lg-9 .card11>img {
+    width: 100%;
+    height: auto;
+    max-width: 260px;
+  }
+
+  .card-description {
+    width: 100%;
+    max-width: 260px;
+    font-size: 14px;
+  }
+
+  .card-description h6 {
+    font-size: 16px;
+  }
+
+  .card-description p {
+    font-size: 14px;
+  }
+
+  .sale,
+  .hot,
+  .new,
+  .card4-hot {
+    width: 50px;
+    height: 22px;
+    font-size: 13px;
+  }
+
+  .sold-out {
+    width: 80px;
+    height: 80px;
+    top: 25%;
+    left: 25%;
+  }
+
+  .sold-out h6 {
+    font-size: 14px;
+  }
+
+  .col-lg-9 .d-flex.justify-content-between.align-items-center {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .col-lg-9 .d-flex.gap-3 {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .custom-select {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+
+  .view-toggle {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .view-toggle i {
+    font-size: 1rem;
+  }
+
+  .col-lg-9 .d-flex.justify-content-between > div:first-child {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+}
