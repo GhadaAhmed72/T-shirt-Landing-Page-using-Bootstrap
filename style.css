@@ -17,8 +17,7 @@
   border-radius: 7px;
 }
 
-.home a,
-.home-dropdown li a {
+.home>a{
   color: #2ebb77 !important;
 }
 
