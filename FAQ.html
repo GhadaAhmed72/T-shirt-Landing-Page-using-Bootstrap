@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- fontawsom cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/home3.css">
+    <link rel="stylesheet" href="css/faq.css">
+</head>
+
+<body>
+    <!-- Top-Navbar -->
+
+    <div class="website-container d-flex flex-column align-items-center justify-content-center">
+        <header class="container-fluid">
+            <div class="container-fluid p-0 py-2 top-bar bg-body-tertiary">
+                <div class="container p-0 d-flex align-items-center justify-content-between" style="color: black;">
+                    <div class="d-flex align-items-center" style="color: #7E7E7E;">
+                        <i class="fa-brands fa-twitter ms-0"></i>
+                        <i class="fa-brands fa-facebook ms-2"></i>
+                        <i class="fa-brands fa-instagram ms-2"></i>
+                        <i class="fa-brands fa-youtube ms-2"></i>
+                    </div>
+                    <div class="d-none d-md-flex align-items-center" style="width: fit-content;">
+                        <img src="./img/shop-details/fire.svg" alt="fire" width="15px">
+                        <p class="fw-bold ms-2 mb-0"> Free shipping on all U.S. orders $50+ </p>
+                    </div>
+                    <div class="d-flex align-items-center" style="max-width: 200px;">
+                        <button
+                            class="bg-light text-dark fw-bold border-0 rounded-2 d-flex align-items-center justify-content-center "
+                            style="width: 70px; height: 32px;">Login</button>
+                        <button
+                            class="bg-dark text-white  border-0 rounded-2 d-flex align-items-center justify-content-center"
+                            style="width: 95px; height: 32px;">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+    <!-- MAin-navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+        <div class="container-fluid">
+            <!-- Logo (visible on small screens) -->
+            <a class="navbar-brand d-lg-none" href="#">
+                <img src="./img/logo.png" alt="Logo" height="30">
+            </a>
+
+            <!-- Toggler for small screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Everything collapses here -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <!-- Nav Links -->
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: #2EBB77;" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home 3
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Home 1</a></li>
+                            <li><a class="dropdown-item" href="#">Home 2</a></li>
+                            <li><a class="dropdown-item" href="./home3.html">Home 3</a></li>
+                            <li><a class="dropdown-item" href="#">Home 4</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: black;" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            TeeSpace
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">TeeSpace2</a></li>
+                            <li><a class="dropdown-item" href="#">TeeSpace3</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: black;" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            SHOP
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Shop</a></li>
+                            <li><a class="dropdown-item" href="./shop-details.html">Shop-Details</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: black;" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            BLOG
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Blog-details</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: black;" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Print</a></li>
+                            <li><a class="dropdown-item" href="#">Our-Team</a></li>
+                            <li><a class="dropdown-item" href="./services.html">Service</a></li>
+                            <li><a class="dropdown-item" href="#">Service-Details</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Pricing Plan</a></li>
+                            <li><a class="dropdown-item" href="./FAQ.html">FAQ</a></li>
+                            <li><a class="dropdown-item" href="#">About</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Logo Centered (visible on large screens) -->
+                <a class="navbar-brand d-none d-lg-block" href="#">
+                    <img src="./img/logo.png" alt="Logo" height="30">
+                </a>
+
+                <!-- Search + Icons -->
+                <div class="d-flex align-items-center gap-3">
+                    <!-- Search -->
+                    <form class="position-relative navbar-search-form">
+                        <input class="form-control ps-5" type="search" placeholder="Search" aria-label="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search position-absolute" viewBox="0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.242 1.156a5 5 0 1 1 0-10 5 5 0 0 1 0 10z" />
+                        </svg>
+                    </form>
+
+                    <!-- Icons -->
+                    <div class="two-icons d-flex align-items-center gap-3">
+                        <div class="position-relative">
+                            <img src="./img/star-icon.svg" alt="Star Icon" width="24" height="24">
+                            <span class="icon-counter">0</span>
+                        </div>
+
+                        <div class="position-relative">
+                            <img src="./img/cart-icon.svg" alt="Cart Icon" width="24" height="24">
+                            <span class="icon-counter">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header section -->
+    <section class="container-fluid cover-section mb-3 text-center p-3">
+        <div class="content">
+            <h2>FAQs</h2>
+            <p class="d-flex align-items-center justify-content-center"><span>Home</span> <span class="line"></span>
+                <span>FAQs</span>
+            </p>
+        </div>
+    </section>
+
+    <!--print easy header -->
+    <div class="section-header d-flex flex-column align-items-center justify-content-between gap-4 ms-0 pe-2 mt-3 p-4 text-center"
+        style="background-color: #fff; ">
+        <h3 class="section-title tex" style="width:36.1675rem; ">Frequently asked questions</h3>
+        <p class="section-subtitle" style="width: 27.80456rem;">Let us show you how your product come to life.</p>
+    </div>
+
+    <div class="container my-5>
+    <div class=" row">
+        <div class="col-12 col-lg-6 instractions-container m-auto">
+            <!-- First Toggler -->
+            <div class="togeller-sec">
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Graphic Design Services
+                </button>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    To make a T-shirt design, your first need to install specific graphic
+                    design software. Once you’ve done that, start your creation and make
+                    sure that your final design is at least 220 PPI so it won’t be pixelated
+                    when printed…
+                </div>
+            </div>
+
+            <!-- Second Toggler -->
+            <div class="togeller-sec">
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
+                    aria-expanded="false" aria-controls="collapseExample1">
+                    Printing Services
+                </button>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="collapse" id="collapseExample1">
+                <div class="card card-body">
+                    To make a T-shirt design, your first need to install specific graphic
+                    design software. Once you’ve done that, start your creation and make
+                    sure that your final design is at least 220 PPI so it won’t be pixelated
+                    when printed…
+                </div>
+            </div>
+
+            <!-- Third Toggler -->
+            <div class="togeller-sec">
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2"
+                    aria-expanded="false" aria-controls="collapseExample2">
+                    POD for online stores
+                </button>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="collapse" id="collapseExample2">
+                <div class="card card-body">
+                    To make a T-shirt design, your first need to install specific graphic
+                    design software. Once you’ve done that, start your creation and make
+                    sure that your final design is at least 220 PPI so it won’t be pixelated
+                    when printed…
+                </div>
+            </div>
+
+            <!-- Fourth Toggler -->
+            <div class="togeller-sec">
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3"
+                    aria-expanded="false" aria-controls="collapseExample3">
+                    Branding & white-label printing
+                </button>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="collapse" id="collapseExample3">
+                <div class="card card-body">
+                    To make a T-shirt design, your first need to install specific graphic
+                    design software. Once you’ve done that, start your creation and make
+                    sure that your final design is at least 220 PPI so it won’t be pixelated
+                    when printed…
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <!-- customize products section -->
+    <section class="hero-section p-3">
+        <div class="hero-background">
+            <div class="hero-content">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-lg-5 col-md-6 left-column">
+                            <div class="my-4">
+                                <div class="cicular-p">
+                                    <p style="color: #B479D9;">Support</p>
+                                </div>
+                                <h3>Frequently asked <br>
+                                    questions </h3>
+                                <p>You’ve got the idea, we’ve got the tools—design your
+                                    custom clothing with our free design assets:</p>
+                                <div class="view-features d-flex justify-content-start align-items-start">
+                                    <img src="./img/faq/sms-icon.svg" alt="">
+                                    <p>ANY QUESTIONS</p>
+                                </div>
+                                <h5 class="fw-bold">hello@teespace.com</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7">
+                                    <!-- First Toggler -->
+                                    <div class="togeller-sec">
+                                        <button class="btn" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#t1" aria-expanded="false"
+                                            aria-controls="collapseExample">
+                                            Graphic Design Services
+                                        </button>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="collapse" id="t1">
+                                        <div class="card card-body">
+                                            To make a T-shirt design, your first need to install specific graphic
+                                            design software. Once you’ve done that, start your creation and make
+                                            sure that your final design is at least 220 PPI so it won’t be pixelated
+                                            when printed…
+                                        </div>
+                                    </div>
+
+                                    <!-- Second Toggler -->
+                                    <div class="togeller-sec">
+                                        <button class="btn" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#t2" aria-expanded="false"
+                                            aria-controls="collapseExample1">
+                                            Printing Services
+                                        </button>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="collapse" id="t2">
+                                        <div class="card card-body">
+                                            To make a T-shirt design, your first need to install specific graphic
+                                            design software. Once you’ve done that, start your creation and make
+                                            sure that your final design is at least 220 PPI so it won’t be pixelated
+                                            when printed…
+                                        </div>
+                                    </div>
+
+                                    <!-- Third Toggler -->
+                                    <div class="togeller-sec">
+                                        <button class="btn" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#t3" aria-expanded="false"
+                                            aria-controls="collapseExample2">
+                                            POD for online stores
+                                        </button>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="collapse" id="t3">
+                                        <div class="card card-body">
+                                            To make a T-shirt design, your first need to install specific graphic
+                                            design software. Once you’ve done that, start your creation and make
+                                            sure that your final design is at least 220 PPI so it won’t be pixelated
+                                            when printed…
+                                        </div>
+                                    </div>
+
+                                    <!-- Fourth Toggler -->
+                                    <div class="togeller-sec">
+                                        <button class="btn" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#t4" aria-expanded="false"
+                                            aria-controls="collapseExample3">
+                                            Branding & white-label printing
+                                        </button>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="collapse" id="t4">
+                                        <div class="card card-body">
+                                            To make a T-shirt design, your first need to install specific graphic
+                                            design software. Once you’ve done that, start your creation and make
+                                            sure that your final design is at least 220 PPI so it won’t be pixelated
+                                            when printed…
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+
+
+    <!-- section header -->
+    <div class="section-header d-flex flex-column align-items-center justify-content-between gap-4 ms-0 pe-2">
+        <div class="sec-icon">
+            <img src="./img/faq/support.svg" alt="Support Icon">
+            <p class="section-subtitle">Support 24/7</p>
+        </div>
+        <h3 class="section-title">Frequently Asked Questions</h3>
+    </div>
+    <!-- customize products section -->
+    <section class="hero-section p-3">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-lg-6">
+                    
+
+                        <!-- First Toggler -->
+                        <div class="togeller-sec">
+                            <button class="btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#t11" aria-expanded="false" aria-controls="collapseExample">
+                                How did my package ship?
+                            </button>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="collapse" id="t11">
+                            <div class="card card-body">
+                                To make a T-shirt design, your first need to install specific graphic
+                                design software. Once you’ve done that, start your creation and make
+                                sure that your final design is at least 220 PPI so it won’t be pixelated
+                                when printed…
+                            </div>
+                        </div>
+
+                        <!-- Second Toggler -->
+                        <div class="togeller-sec">
+                            <button class="btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#t12" aria-expanded="false"
+                                aria-controls="collapseExample1">
+                                What products can I customize?
+                            </button>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="collapse" id="t12">
+                            <div class="card card-body">
+                                To make a T-shirt design, your first need to install specific graphic
+                                design software. Once you’ve done that, start your creation and make
+                                sure that your final design is at least 220 PPI so it won’t be pixelated
+                                when printed…
+                            </div>
+                        </div>
+
+                        <!-- Third Toggler -->
+                        <div class="togeller-sec">
+                            <button class="btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#t13" aria-expanded="false"
+                                aria-controls="collapseExample2">
+                                How long will my package take to arrive?
+                            </button>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="collapse" id="t13">
+                            <div class="card card-body">
+                                To make a T-shirt design, your first need to install specific graphic
+                                design software. Once you’ve done that, start your creation and make
+                                sure that your final design is at least 220 PPI so it won’t be pixelated
+                                when printed…
+                            </div>
+                        </div>
+
+                        <!-- Fourth Toggler -->
+                        <div class="togeller-sec">
+                            <button class="btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#t14" aria-expanded="false"
+                                aria-controls="collapseExample3">
+                                What are business days?
+                            </button>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="collapse" id="t14">
+                            <div class="card card-body">
+                                To make a T-shirt design, your first need to install specific graphic
+                                design software. Once you’ve done that, start your creation and make
+                                sure that your final design is at least 220 PPI so it won’t be pixelated
+                                when printed…
+                            </div>
+                        </div>
+
+                    </div>
+
+                <div class="col-lg-6">
+            
+                        <!-- First Toggler -->
+                        <div class="togeller-sec">
+                            <button class="btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#t21" aria-expanded="false" aria-controls="collapseExample">
+                                What is the best T-shirt material?
+                            </button>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="collapse" id="t21">
+                            <div class="card card-body">
+                                To make a T-shirt design, your first need to install specific graphic
+                                design software. Once you’ve done that, start your creation and make
+                                sure that your final design is at least 220 PPI so it won’t be pixelated
+                                when printed…
+                            </div>
+                        </div>
+
+                        <!-- Second Toggler -->
+                        <div class="togeller-sec">
+                            <button class="btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#t22" aria-expanded="false"
+                                aria-controls="collapseExample1">
+                                How long will my package take to arrive?
+                            </button>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="collapse" id="t22">
+                            <div class="card card-body">
+                                To make a T-shirt design, your first need to install specific graphic
+                                design software. Once you’ve done that, start your creation and make
+                                sure that your final design is at least 220 PPI so it won’t be pixelated
+                                when printed…
+                            </div>
+                        </div>
+
+                        <!-- Third Toggler -->
+                        <div class="togeller-sec">
+                            <button class="btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#t23" aria-expanded="false"
+                                aria-controls="collapseExample2">
+                                How are your T-shirts printed?
+                            </button>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="collapse" id="t23">
+                            <div class="card card-body">
+                                To make a T-shirt design, your first need to install specific graphic
+                                design software. Once you’ve done that, start your creation and make
+                                sure that your final design is at least 220 PPI so it won’t be pixelated
+                                when printed…
+                            </div>
+                        </div>
+
+                        <!-- Fourth Toggler -->
+                        <div class="togeller-sec">
+                            <button class="btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#t24" aria-expanded="false"
+                                aria-controls="collapseExample3">
+                                Can I order a personalized gift?
+                            </button>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="collapse" id="t24">
+                            <div class="card card-body">
+                                To make a T-shirt design, your first need to install specific graphic
+                                design software. Once you’ve done that, start your creation and make
+                                sure that your final design is at least 220 PPI so it won’t be pixelated
+                                when printed…
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <div class="container-fluid py-5" style="background-color: #64CB9A;">
+        <div class="row align-items-center gy-4">
+            <div class="col-12 col-md-6">
+                <div class="news-cont pe-md-4 text-center text-md-center">
+                    <h2 class="mb-3">Enjoy up your vacations
+                        in the best T-shirts</h2>
+                    <p class="mb-4">T-shirts that keep you moving.</p>
+                    <div
+                        class="input-sub d-flex flex-column flex-sm-row justify-content-center justify-content-md-start gap-2">
+                        <button class="btn btn-success csm-btn">Subscribe <img src="./img/faq/arrow-right.svg"
+                                alt=""></button>
+                        <button class="btn btn-success csm-btn">Subscribe <img src="./img/faq/arrow-right.svg"
+                                alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+                <div class="news-letter-img">
+                    <!-- Add image if needed -->
+                    <img src="./img/news-pic.png" class="img-fluid" alt="Newsletter illustration">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!--End  -->
+
+
+    <!-- Footer -->
+    <footer class="container-fluid" style="background-color: #F5F5F5;">
+        <div class="container py-4">
+            <div class="row my-5">
+
+                <div class="col-lg-3 col-md-6 col-sm-12 lh-3">
+                    <div>
+                        <img src="./img/logo-black.png">
+                        <div class="mx-0 mx-md-2">
+                            <p>hello@teespace.io</p>
+                            <h6 class="fw-bold">+02 036 038 3996</h6>
+                            <p>3665 Paseo Place, Suite 0960<br>
+                                San Diego</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6  col-sm-12 lh-3 my-2">
+                    <div>
+                        <h5 class="fw-bold">Information</h5>
+                        <div class="my-3">
+                            <p>About Us</p>
+                            <p>Our Blog</p>
+                            <p>Start a Return</p>
+                            <p>Contact Us</p>
+                            <p>Shipping FAQ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6  col-sm-12 lh-3 my-2">
+                    <div>
+                        <h5 class="fw-bold">Useful links</h5>
+                        <div class="my-3">
+                            <p>My Account</p>
+                            <p>Print Provider</p>
+                            <p>Become a Partner</p>
+                            <p>Custom Products</p>
+                            <p>Make your own shirt</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-sm-12 lh-3 my-2">
+                    <div>
+                        <h5 class="fw-bold">Newsletter</h5>
+                        <p class="my-3">Get the latest news, events & more delivered
+                            to your inbox.</p>
+                        <div class="email-input">
+                            <input type="email" placeholder="Your email address">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center col-lg-12 col-md-12 col-sm-12">
+                <img src="./img/footer-payment-method.png.png" alt="" class="my-2 img-fluid">
+                <p class="my-2">© 2025 TeeSpace. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="go-top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Select all collapse elements
+            const collapses = document.querySelectorAll('.collapse');
+
+            collapses.forEach(collapse => {
+                // Get the corresponding toggler section
+                const togglerSec = collapse.previousElementSibling;
+
+                // Listen for Bootstrap's show event
+                collapse.addEventListener('show.bs.collapse', () => {
+                    togglerSec.classList.add('active');
+                });
+
+                // Listen for Bootstrap's hide event
+                collapse.addEventListener('hide.bs.collapse', () => {
+                    togglerSec.classList.remove('active');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
