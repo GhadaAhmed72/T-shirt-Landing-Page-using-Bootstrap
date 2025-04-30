@@ -619,7 +619,7 @@ header p {
   .support-text,
   .Testimonials-text,
   section p[style*="width: 30%"] {
-    width: 90px !important;
+    width: 110px !important;
     max-width: 100%;
   }
   .number-circle {
