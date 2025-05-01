@@ -298,6 +298,11 @@ p{
     text-decoration: none;
 }
 
+@media screen and (min-width: 1199px) {
+    .website-container .testmonials-section  .apps-container .dowload-details img{
+        height:400px;
+    }
+}
 @media screen and (max-width: 1199px) {
     .website-container .hero-section .content{
         position: absolute;
