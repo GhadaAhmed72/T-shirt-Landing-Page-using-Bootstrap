@@ -299,7 +299,7 @@ p{
 }
 
 @media screen and (min-width: 1199px) {
-    .website-container .testmonials-section  .apps-container .dowload-details img{
+    .website-container .testmonials-section  .apps-container .dowload-details {
         height:400px;
     }
 }
